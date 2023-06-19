@@ -74,7 +74,7 @@ server {
   location /report/config.xml   { deny all; }
   location /var/                { deny all; }
 
-  location /var/export/ { ## Allow admins only to view export folder
+  location /var/export/ { ## Allow Admins only to view export folder
     auth_basic           "Restricted"; ## Message shown in login window
     auth_basic_user_file /rs/passwords/testfile; ## See /etc/nginx/htpassword
     autoindex            on;
@@ -140,7 +140,7 @@ server {
   location /report/config.xml   { deny all; }
   location /var/                { deny all; }
 
-  location /var/export/ { ## Allow admins only to view export folder
+  location /var/export/ { ## Allow Admins only to view export folder
     auth_basic           "Restricted"; ## Message shown in login window
     auth_basic_user_file htpasswd; ## See /etc/nginx/htpassword
     autoindex            on;

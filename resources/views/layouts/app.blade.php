@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ Session::token() }}">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>P.T Saputra Tirtha Amertha &mdash; Dashboard</title>
+    <title>P.T Saputra Tirtha Amertha &mdash; Halaman Utama</title>
     <link rel="icon" href="{{ asset('img/icon.png') }}">
 
     <!-- General CSS Files -->
@@ -78,22 +78,22 @@
                         <li class="{{ Request::route()->getName() == 'home' ? ' active' : '' }}">
                             <a class="nav-link" href="{{route('home')}}">
                                 <i class="fas fa-tachometer-alt"></i>
-                                <span>Dashboard</span>
+                                <span>Halaman Utama</span>
                             </a>
                         </li>
 
-                        @if (auth()->user()->jabatan == 'admin')
+                        @if (auth()->user()->jabatan == 'Admin')
 
                         <li class="dropdown">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
                                 <i class="fas fa-folder-open"></i>
-                                <span>Master Data</span>
+                                <span>Data Utama</span>
                             </a>
                             <ul class="dropdown-menu" style="display: block;">
                                 <li class="{{ Request::route()->getName() == 'data-akun.index' ? ' active' : '' }}"><a
                                         class="nav-link" href="{{ route('data-akun.index') }}">Data Akun</a></li>
                                 <li class="{{ Request::route()->getName() == 'data-customer.index' ? ' active' : '' }}">
-                                    <a class="nav-link" href="{{ route('data-customer.index') }}">Data Customer</a>
+                                    <a class="nav-link" href="{{ route('data-customer.index') }}">Data Pelanggan</a>
                                 </li>
                                 <li class="{{ Request::route()->getName() == 'data-kategori.index' ? ' active' : '' }}">
                                     <a class="nav-link" href="{{ route('data-kategori.index') }}">Data Kategori</a>
@@ -153,7 +153,7 @@
                         <li class="{{ Request::route()->getName() == 'data-user.index' ? ' active' : '' }}">
                             <a class="nav-link" href="{{ route('data-user.index') }}">
                                 <i class="fas fa-user-plus"></i>
-                                <span>Data User</span>
+                                <span>Data Pengguna</span>
                             </a>
                         </li>
                         <li class="{{ Request::route()->getName() == 'laporan.index' ? ' active' : '' }}">

@@ -16,14 +16,14 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        $admin = [
-            'name'     => 'admin',
-            'username' => 'admin',
-            'jabatan'  => 'admin',
-            'password' => Hash::make('admin123')
+        $Admin = [
+            'name'     => 'Admin',
+            'username' => 'Admin',
+            'jabatan'  => 'Admin',
+            'password' => Hash::make('Admin123')
         ];
 
-        User::create($admin);
+        User::create($Admin);
 
         $owner = [
             'name'     => 'owner',

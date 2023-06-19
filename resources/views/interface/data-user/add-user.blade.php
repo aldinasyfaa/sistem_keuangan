@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="section-header">
-  <h1>Tambah Data User</h1>
+  <h1>Tambah Data Pengguna</h1>
 </div>
 
 <div class="section-body">
@@ -37,7 +37,7 @@
           <select name="jabatan" id="jabatan" class="custom-select">
             <option value="none" disabled selected>- Pilih Jabatan -</option>
             <option value="owner">Owner</option>
-            <option value="admin">Staff Admin</option>
+            <option value="Admin">Staff Admin</option>
           </select>
         </div>
 

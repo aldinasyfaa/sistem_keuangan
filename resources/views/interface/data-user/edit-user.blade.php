@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="section-header">
-  <h1>Edit Data User</h1>
+  <h1>Edit Data Pengguna</h1>
 </div>
 
 <div class="section-body">
@@ -38,7 +38,7 @@
           <select name="jabatan" id="jabatan" class="custom-select">
             <option value="none" disabled selected>- Pilih Jabatan -</option>
             <option value="{{$datas->jabatan}}" @if($datas->jabatan == 'owner') selected @endif>Owner</option>
-            <option value="{{$datas->jabatan}}" @if($datas->jabatan == 'admin') selected @endif>Staff Admin</option>
+            <option value="{{$datas->jabatan}}" @if($datas->jabatan == 'Admin') selected @endif>Staff Admin</option>
           </select>
         </div>
 

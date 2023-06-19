@@ -6582,7 +6582,7 @@
       "terms": [
         "activity",
         "analytics",
-        "dashboard",
+        "Halaman Utama",
         "graph",
         "line-chart"
       ]
@@ -8532,7 +8532,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "dashboard",
+        "Halaman Utama",
         "panes",
         "split"
       ]
@@ -18696,7 +18696,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "admin",
+        "Admin",
         "fix",
         "repair",
         "settings",
@@ -23502,7 +23502,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "admin",
+        "Admin",
         "protect",
         "security"
       ]
@@ -23537,7 +23537,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "admin",
+        "Admin",
         "lock",
         "open",
         "password",
@@ -31764,7 +31764,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "admin",
+        "Admin",
         "fix",
         "repair",
         "settings",
@@ -36373,7 +36373,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "dashboard",
+        "Halaman Utama",
         "tachometer"
       ]
     },
@@ -37855,7 +37855,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "admin",
+        "Admin",
         "container",
         "fix",
         "repair",
@@ -39211,7 +39211,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "admin",
+        "Admin",
         "lock",
         "password",
         "protect"
@@ -39246,7 +39246,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "admin",
+        "Admin",
         "lock",
         "password",
         "protect"

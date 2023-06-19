@@ -3,11 +3,11 @@ accusoft:
     - accusoft
   label: Accusoft
   url: 'https://www.accusoft.com'
-administrator-technology:
+Administrator-technology:
   icons:
     - stream
   label: Administrator Technology
-  url: 'https://administrator.de'
+  url: 'https://Administrator.de'
 adversal:
   icons:
     - adversal

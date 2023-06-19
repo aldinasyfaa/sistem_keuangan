@@ -2804,7 +2804,7 @@
 	/**
 	 * Return an array with the full table data
 	 *  @param {object} oSettings dataTables settings object
-	 *  @returns array {array} aData Master data array
+	 *  @returns array {array} aData Data Utama array
 	 *  @memberof DataTable#oApi
 	 */
 	function _fnGetDataMaster ( settings )

@@ -58,7 +58,7 @@ class DataCustomerController extends Controller
         ];
 
         DataCustomer::create($fields);
-        return redirect()->route('data-customer.index')->with('success', 'Data customer berhasil ditambahkan');
+        return redirect()->route('data-customer.index')->with('success', 'Data Pelanggan berhasil ditambahkan');
     }
 
     /**
@@ -109,7 +109,7 @@ class DataCustomerController extends Controller
         ];
 
         $data->update($fields);
-        return redirect()->route('data-customer.index')->with('success', 'Data customer berhasil diubah');
+        return redirect()->route('data-customer.index')->with('success', 'Data Pelanggan berhasil diubah');
     }
 
     /**
